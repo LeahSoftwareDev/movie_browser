@@ -1,0 +1,64 @@
+{
+  "@@locale": "en",
+  "appTitle": "Movie Browser",
+  "searchHint": "Search movies...",
+  "searchButton": "Search",
+  "clearAll": "Clear All",
+  "recentSearches": "Recent Searches",
+  "searchPrompt": "Search for a movie...",
+  "noResultsFound": "No results found for \"{query}\"",
+  "@noResultsFound": {
+    "placeholders": {
+      "query": { "type": "String" }
+    }
+  },
+  "tryDifferentTerm": "Try a different search term",
+  "resultsFor": "Results for \"{query}\"",
+  "@resultsFor": {
+    "placeholders": {
+      "query": { "type": "String" }
+    }
+  },
+  "myFavorites": "My Favorites",
+  "noFavoritesYet": "No favorites yet",
+  "addFavoritesHint": "Add movies by tapping the heart icon",
+  "viewDetails": "View Details",
+  "director": "Director",
+  "actors": "Actors",
+  "plot": "Plot",
+  "retry": "Retry",
+  "offlineBanner": "Offline – showing cached results",
+  "offlineDetailsBanner": "Offline – showing last saved data",
+  "noInternetNoCacheError": "No internet connection. No cached results found.",
+  "timeoutError": "Connection timed out. Please try again.",
+  "invalidApiKeyError": "Invalid API key. Please check your configuration.",
+  "generalError": "Something went wrong. Please try again.",
+  "emptySearchError": "Please enter a search term",
+  "goBack": "Go Back",
+  "limitedDataAvailable": "No internet connection – limited data available",
+  "searchIconLabel": "Search icon",
+  "clearSearchLabel": "Clear search",
+  "addToFavoritesLabel": "Add to favorites",
+  "goToFavoritesLabel" : "Go to favorites",
+  "removeFromFavoritesLabel": "Remove from favorites",
+  "removeMovieFromFavorites": "Remove {title} from favorites",
+  "@removeMovieFromFavorites": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "searchHistoryItem": "Search history item: {query}",
+  "@searchHistoryItem": {
+    "placeholders": {
+      "query": { "type": "String" }
+    }
+  },
+  "movieCardLabel": "{title}, {year}, {type}",
+  "@movieCardLabel": {
+    "placeholders": {
+      "title": { "type": "String" },
+      "year": { "type": "String" },
+      "type": { "type": "String" }
+    }
+  }
+}
