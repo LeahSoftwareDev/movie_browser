@@ -52,8 +52,3 @@ OMDB_API_KEY=your_api_key_here
 3. Run `dart run build_runner build --delete-conflicting-outputs`
 4. Run `flutter gen-l10n`
 5. Run `flutter run`
-
-## Tests
-```bash
-flutter test
-```
