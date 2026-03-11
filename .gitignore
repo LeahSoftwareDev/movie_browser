@@ -46,6 +46,10 @@ linked_*.ds
 unlinked.ds
 unlinked_spec.ds
 
+.env
+*.g.dart
+build/
+
 # Android related
 **/android/**/gradle-wrapper.jar
 .gradle/
