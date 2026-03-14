@@ -48,7 +48,6 @@ unlinked_spec.ds
 
 .env
 *.g.dart
-build/
 
 # Android related
 **/android/**/gradle-wrapper.jar

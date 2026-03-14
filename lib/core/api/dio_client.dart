@@ -4,7 +4,12 @@ import '../constants/app_constants.dart';
 class DioClient {
   DioClient._();
 
-  static Dio get instance {
+  static final Dio _instance = _createDio();
+
+  static Dio get instance => _instance;
+
+
+  static Dio _createDio() {
     final dio = Dio(
       BaseOptions(
         baseUrl: AppConstants.baseUrl,
